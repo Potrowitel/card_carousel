@@ -1,3 +1,5 @@
+import 'package:flutter/rendering.dart';
+
 class ScrollAnimModel {
   int currentCard;
   double currentScale;

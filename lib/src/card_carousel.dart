@@ -435,7 +435,10 @@ class BankCard extends StatelessWidget {
                     ),
                   ),
                   Positioned.fill(
-                      child: Image.asset('assets/images/noise.png')),
+                      child: Image.asset(
+                    'assets/images/noise.png',
+                    package: 'card_carousel',
+                  )),
                 ],
               ),
             ),

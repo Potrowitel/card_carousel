@@ -400,7 +400,7 @@ class BankCard extends StatelessWidget {
                       child: Text(
                         card.title,
                         style: TextStyle(
-                          fontFamily: 'NunitoSans-Regular',
+                          // fontFamily: 'NunitoSans-Regular',
                           fontSize: 14,
                           color: Colors.white,
                         ),
@@ -413,8 +413,9 @@ class BankCard extends StatelessWidget {
                       child: Text(
                         card.balance,
                         style: TextStyle(
-                          fontFamily: 'NunitoSans-ExtraBold',
+                          // fontFamily: 'NunitoSans-ExtraBold',
                           fontSize: 20,
+                          fontWeight: FontWeight.w800,
                           color: Colors.white,
                         ),
                       ),
@@ -427,8 +428,9 @@ class BankCard extends StatelessWidget {
                       child: Text(
                         '•••• ${card.number}',
                         style: TextStyle(
-                          fontFamily: 'NunitoSans-Bold',
+                          // fontFamily: 'NunitoSans-Bold',
                           fontSize: 14,
+                          fontWeight: FontWeight.w700,
                           color: Colors.white,
                         ),
                       ),
